@@ -6,14 +6,18 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
-    private GameObject[] _prefabs;
+    private GameObject[] _prefabsA;
+
+    [SerializeField]
+    private GameObject[] _prefabsB;
 
     [SerializeField]
     private int _spawnAmount;
 
     private readonly List<SpriteAnimator> _animators = new();
     private Vector3 _minPos, _maxPos;
-    private int _currentPrefabIndex;
+    private int _currentPrefabAIndex;
+    private int _currentPrefabBIndex;
     private int _spawnTimes;
     private Unity.Mathematics.Random _random;
 
@@ -34,14 +38,24 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.A))
         {
-            _currentPrefabIndex++;
+            _currentPrefabAIndex++;
 
-            if (_currentPrefabIndex >= _prefabs.Length)
-                _currentPrefabIndex = 0;
+            if (_currentPrefabAIndex >= _prefabsA.Length)
+                _currentPrefabAIndex = 0;
 
-            Spawn(_spawnAmount);
+            Spawn(_spawnAmount, _currentPrefabAIndex, _prefabsA);
+        }
+
+        if (Input.GetKeyUp(KeyCode.B))
+        {
+            _currentPrefabBIndex++;
+
+            if (_currentPrefabBIndex >= _prefabsB.Length)
+                _currentPrefabBIndex = 0;
+
+            Spawn(_spawnAmount, _currentPrefabBIndex, _prefabsB);
         }
     }
 
@@ -56,9 +70,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Spawn(int amount)
+    private void Spawn(int amount, int currentIndex, GameObject[] prefabs)
     {
-        var prefab = _prefabs[_currentPrefabIndex];
+        var prefab = prefabs[currentIndex];
         var animators = _animators;
         var pos = _random.NextFloat3(_minPos, _maxPos);
 

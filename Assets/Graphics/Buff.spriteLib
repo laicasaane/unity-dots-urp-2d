@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: sprite-buff
+    m_Hash: 114510942
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: sprite-buff_1
+      m_Hash: 913762540
+      m_Sprite: {fileID: 21300000, guid: 6208d3bc2674e724597b10f63a42f695, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 6208d3bc2674e724597b10f63a42f695, type: 3}
+    - m_Name: sprite-buff_2
+      m_Hash: 796899670
+      m_Sprite: {fileID: 21300000, guid: f77c774279611e24a89943c031348d40, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: f77c774279611e24a89943c031348d40, type: 3}
+    - m_Name: sprite-buff_3
+      m_Hash: 410552768
+      m_Sprite: {fileID: 21300000, guid: 27f90546f8639f649b833a0739ac3572, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 27f90546f8639f649b833a0739ac3572, type: 3}
+    - m_Name: sprite-buff_4
+      m_Hash: 102505571
+      m_Sprite: {fileID: 21300000, guid: faee771560fe2c34f834ed8adef6f033, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: faee771560fe2c34f834ed8adef6f033, type: 3}
+    - m_Name: sprite-buff_5
+      m_Hash: 823864565
+      m_Sprite: {fileID: 21300000, guid: 62cee7b374983f346893863dc743fbf4, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 62cee7b374983f346893863dc743fbf4, type: 3}
+    - m_Name: sprite-buff_6
+      m_Hash: 672300367
+      m_Sprite: {fileID: 21300000, guid: 72a1affaba0ec9545a7fb906236566a6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 72a1affaba0ec9545a7fb906236566a6, type: 3}
+    - m_Name: sprite-buff_7
+      m_Hash: 521489881
+      m_Sprite: {fileID: 21300000, guid: fe88b464b7937eb4f8f5e1cd719bbda6, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: fe88b464b7937eb4f8f5e1cd719bbda6, type: 3}
+    - m_Name: sprite-buff_8
+      m_Hash: 262819912
+      m_Sprite: {fileID: 21300000, guid: 8faa83d1dd49db343a90848842872372, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 8faa83d1dd49db343a90848842872372, type: 3}
+    - m_Name: sprite-buff_9
+      m_Hash: 950886622
+      m_Sprite: {fileID: 21300000, guid: ae4588c35975f454d9e22fc94276d940, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: ae4588c35975f454d9e22fc94276d940, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 9
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638137156854562729
+  m_Version: 1
