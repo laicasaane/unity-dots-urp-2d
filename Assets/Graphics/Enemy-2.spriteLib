@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: sprite-enemy-2-idle
+    m_Hash: 335620169
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: sprite-enemy-2-idle_0
+      m_Hash: 237857663
+      m_Sprite: {fileID: -1937485638, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1937485638, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+    - m_Name: sprite-enemy-2-idle_1
+      m_Hash: 959077353
+      m_Sprite: {fileID: 1363637521, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1363637521, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+    - m_Name: sprite-enemy-2-idle_2
+      m_Hash: 539167315
+      m_Sprite: {fileID: 1995385566, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1995385566, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+    - m_Name: sprite-enemy-2-idle_3
+      m_Hash: 388250309
+      m_Sprite: {fileID: 818085913, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 818085913, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+    - m_Name: sprite-enemy-2-idle_4
+      m_Hash: 155234150
+      m_Sprite: {fileID: -2006195409, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2006195409, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+    - m_Name: sprite-enemy-2-idle_5
+      m_Hash: 1044881392
+      m_Sprite: {fileID: 207500841, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 207500841, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+    - m_Name: sprite-enemy-2-idle_6
+      m_Hash: 659476042
+      m_Sprite: {fileID: 446988688, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 446988688, guid: 5e15bb70d99acb942bfa43d50b389f21, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 7
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638137072093899566
+  m_Version: 1

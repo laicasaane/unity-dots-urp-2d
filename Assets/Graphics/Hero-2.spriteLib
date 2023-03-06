@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: sprite-hero-2-idle
+    m_Hash: 65314220
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: sprite-hero-2-idle_0
+      m_Hash: 372210736
+      m_Sprite: {fileID: -1508942571, guid: fbea10a28af14a24fa8898d302851f27, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1508942571, guid: fbea10a28af14a24fa8898d302851f27, type: 3}
+    - m_Name: sprite-hero-2-idle_1
+      m_Hash: 556289190
+      m_Sprite: {fileID: -2077510176, guid: fbea10a28af14a24fa8898d302851f27, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2077510176, guid: fbea10a28af14a24fa8898d302851f27, type: 3}
+    - m_Name: sprite-hero-2-idle_2
+      m_Hash: 941694236
+      m_Sprite: {fileID: -1348200083, guid: fbea10a28af14a24fa8898d302851f27, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1348200083, guid: fbea10a28af14a24fa8898d302851f27, type: 3}
+    - m_Name: sprite-hero-2-idle_3
+      m_Hash: 254160266
+      m_Sprite: {fileID: 976334489, guid: fbea10a28af14a24fa8898d302851f27, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 976334489, guid: fbea10a28af14a24fa8898d302851f27, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638137075182656091
+  m_Version: 1

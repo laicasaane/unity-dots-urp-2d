@@ -40,6 +40,23 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
-  }
+    "com.unity.modules.xr": "1.0.0",
+    "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0",
+    "com.zbase.collections.pooled": "2.8.1",
+    "com.tayx.graphy": "3.0.2",
+    "com.yasirkula.ingamedebugconsole": "1.5.9"
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.openupm",
+        "com.tayx.graphy",
+        "com.yasirkula.ingamedebugconsole",
+        "com.zbase.collections.pooled",
+        "org.nuget.system.runtime.compilerservices.unsafe"
+      ]
+    }
+  ]
 }
