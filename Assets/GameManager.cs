@@ -74,7 +74,6 @@ public class GameManager : MonoBehaviour
     {
         var prefab = prefabs[currentIndex];
         var animators = _animators;
-        var pos = _random.NextFloat3(_minPos, _maxPos);
 
         for (var i = 0; i < amount; i++)
         {
@@ -82,6 +81,8 @@ public class GameManager : MonoBehaviour
 
             var go = Instantiate(prefab);
             go.name = $"{prefab.name}_{_spawnTimes}";
+
+            var pos = _random.NextFloat3(_minPos, _maxPos);
             go.transform.position = new Vector3(pos.x, pos.y, 0f);
 
             var animator = go.GetComponent<SpriteAnimator>();
